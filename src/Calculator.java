@@ -9,33 +9,27 @@ public class Calculator {
     }
 
     public double multiply() {
-        double product = number1 * number2;
-        return product;
+        return number1 * number2;
     }
 
     public double divide(){
-        double quotient = number1 / number2;
-        return quotient;
+        return number1 / number2;
     }
 
     public double add(){
-        double sum = number1 + number2;
-        return sum;
+        return number1 + number2;
     }
 
     public double subtract(){
-        double difference = number1 - number2;
-        return difference;
+        return number1 - number2;
     }
 
     public double mod(){
-        double modResult = number1 % number2;
-        return modResult;
+        return number1 % number2;
     }
 
     public double exponentiation(){
-        double exponentResult = Math.pow(number1, number2);
-        return exponentResult;
+        return Math.pow(number1, number2);
     }
 }
 
